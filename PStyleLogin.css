@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 100%;
+	background:linear-gradient(to bottom,rgba(65,102,245,0.7),lightblue);
+	background-repeat: no-repeat;
+}
+body{
+	font-size: 100%;
+}
+#NITTER{
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	margin-bottom: 15px;	
+}
+#NITTER a{
+	color: #003153;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: 5px solid #003153;
+	border-right: 5px solid #003153;
+}
+#About{
+	color: #003153;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	font-size: 15px;
+}
+.Form{
+	margin: 50px auto 0;
+	width: 30%;
+	border: 2px solid white;
+	background-color: rgba(0,0,0,0.8);
+}
+#Choice{
+	background-color: #003153;
+	overflow: hidden;
+}
+#Choice a{
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+#header{
+	color: white;
+	background-color: rgb(40,40,40);
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	border:2px solid rgb(30,30,30);
+	padding: 10px;
+}
+.formelements{
+	margin: 10px 0px 10px 10px;
+}
+.formelements label{
+	margin: 0px;
+	display: block;
+	text-align: left;
+	color: white;
+}
+.formelements input{
+	border-radius: 5px;
+	border: 1px solid grey;
+	width: 95%;
+	font-size: 15px;
+	height: 30px;
+}
+
+.formelements #btn{
+	border-radius: 5px;
+	background-color: rgb(40,40,40);
+	font-size: 15px;
+	color: white;
+	padding: 5px;
+}
+.errors{
+	width: 92%;
+	margin: 0px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding:10px;
+	color: darkred;
+	background-color: #f5dfdf;
+	text-align: left;
+}
+.head{
+	background-color: white;
+	color: black;
+	text-shadow: 1px 1px 1px;
+	box-shadow: 4px 3px 3px;
+	padding: 5px;
+}
+.head a{
+	color: black;
+	text-decoration: none;
+}
