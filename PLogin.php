@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 		<script src="jquery-3.2.1.min.js"></script>
 		<script>
-			/*$(document).ready(function(){
+		/*	$(document).ready(function(){
 				$('#FieldL').hide();
 				$('#ChoiceR').css("background-color","rgba(0,0,0,0.8");
 				$('#ChoiceL').click(function(){
@@ -42,55 +42,42 @@
 		
 		<!--Don't confuse the class "Form" with the <form> tag-->
 		<div class="Form">
-			
+		
 			<div id="Choice">
-			
-				<a href="#" id="Chosen" name="ChoiceR">Register</a>
-				<a href="PLogin.php" name="ChoiceL">Login</a>
-			
+		
+				<a href="PRegister.php" name="ChoiceR">Register</a>
+				<a href="#" id="Chosen" name="ChoiceL">Login</a>
+		
 			</div>
-			
-			<form class="Fields" id="FieldR" method="post" action="<?php echo htmlspecialchars('PRegister.php');?>">
-			
-				<?php include('ErrorDisplayReg.php');?>
-			
+		
+			<form class="Fields" id="FieldL" method="post" action="<?php echo htmlspecialchars("PLogin.php");?>">
+		
+				<?php include('ErrorDisplayLog.php');?>
+		
 				<div class="formelements">
-			
+		
 					<label>Username:</label>
-					<input type="text" name="usernameR" value="<?php echo $username; ?>">
-			
+					<input type="text" name="usernameL">
+		
 				</div>
-			
+		
 				<div class="formelements">
-			
-					<label>Email:</label>
-					<input type="text" name="email" value="<?php echo $email; ?>">
-			
-				</div>
-			
-				<div class="formelements">
-			
+		
 					<label>Password:</label>
-					<input type="password" name="password1">
-			
+					<input type="password" name="password">
+		
 				</div>
-			
+		
 				<div class="formelements">
-			
-					<label>Confirm Password:</label>
-					<input type="password" name="password2">
-			
+		
+					<button id="btn" name="login">Log In</button>
+		
 				</div>
-			
-				<div class="formelements">
-			
-					<button id="btn" name="submit">Sign Up</button>
-			
-				</div>
-			
+		
 			</form>
+		
 		</div>
-
+	
 	</body>
 
 </html>

@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+}
+
+html{
+	height: 100%;
+	background-color: rgba(230,230,230,0.5);
+}
+
+#TopPanel{
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background-color: #003153;
+	overflow: hidden;
+	z-index: 2;
+}
+
+#Logo{
+	float: left;
+	width:10%;
+	height: 100%;
+}
+
+#Logo a{
+	margin-left:10%;
+	text-decoration: none;
+	color: #003153;
+	color: white;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 28px;
+}
+
+#Description{
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+}
+
+#Description p,h3{
+	text-align: center;
+	color: white;
+}
+
+#LogoutDiv{
+	float: right;
+	width: 10%;
+	height: 100%;
+}
+
+#Logout{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	border: none;
+	margin: auto;
+}
+
+#Logout a{
+	color: white;
+	text-decoration: none;
+}
+
+#QuestionBox{
+	position: relative;
+	top:40px;
+	width:70%;
+	background-color: rgb(220,220,256);
+	border-bottom: 2px solid white;
+}
+#QuestionBox h3{
+	text-align: left;
+	padding: 3px;
+	color: black;
+	margin-left: 10px;
+}
+#QuestionBox textarea{
+	margin-left: 5%;
+	width: 80%;
+	height: 60px;
+	max-height: 60px;
+	max-width: 70%;
+	font-family: serif;
+	font-size: 16px;
+}
+
+#QuestionBox button{
+	position: relative;
+	top:-25px;
+	left: 10px;
+	margin-right: 10%;
+	background-color: #003153;
+	color: white;
+	padding: 5px;
+}
+
+#Events{
+	position: fixed;
+	width: 30%;
+	top:40px;
+	height: 100%;
+	right: 0px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#Events h2{
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+	border-bottom: 2px solid rgba(256,256,256,0.8);
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#Events #AddEvent{
+	position: fixed;
+	bottom: 0px;
+	border-top: 2px solid white;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	padding: 3px;
+}
+
+#hide{
+	background-color: rgba(0,0,0,0.9);
+	border: none;
+	color: white;
+	padding: 3px;
+}
+
+#AddEvent textarea{
+	width: 22%;
+	margin-left: 5px;
+	margin-top: 3px;
+	max-width: 22%;
+}
+#AddEvent button{
+	position: relative;
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	padding: 3px;
+	top: -10px;
+}
+
+.post{
+	position: relative;
+	top:40px;
+	display: block;
+	width: 70%;
+	background-color: rgba(0,0,256,0.1);
+	word-wrap: break-word;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top:5px;
+}
+
+.post h2{
+	padding: 3px;
+}
+
+.post p{
+	font-size: 18px;
+}
+
+.post h5{
+	font-weight: normal;
+	padding:3px;
+	color: (0,0,0,0.7);
+}
